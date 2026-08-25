@@ -7,6 +7,11 @@ export default function Projects() {
   const { projects } = portfolioData;
   const [selectedProject, setSelectedProject] = useState(null);
 
+  const handleImageError = (e) => {
+    // If image fails, fallback to high quality software engineering placeholder
+    e.target.src = 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80';
+  };
+
   return (
     <section id="projects" className="py-24 relative z-10 bg-slate-100/70 dark:bg-slate-900/40 border-y border-slate-200 dark:border-slate-800/60 transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,10 +38,11 @@ export default function Projects() {
               className="rounded-3xl bg-white dark:bg-slate-900/90 border border-slate-200 dark:border-slate-800 hover:border-cyan-500/50 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden shadow-lg dark:shadow-2xl"
             >
               {/* Card Banner Image with Overlay */}
-              <div className="relative h-52 w-full overflow-hidden">
+              <div className="relative h-52 w-full overflow-hidden bg-slate-950">
                 <img
                   src={project.bgImage}
                   alt={project.title}
+                  onError={handleImageError}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-white via-white/80 to-slate-900/30 dark:from-slate-900 dark:via-slate-900/80 dark:to-transparent"></div>
