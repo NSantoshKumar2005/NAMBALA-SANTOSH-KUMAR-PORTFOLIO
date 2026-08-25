@@ -10,6 +10,7 @@ import CertificationsAchievements from './components/CertificationsAchievements'
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ResumeModal from './components/ResumeModal';
+import BackgroundTheme from './components/BackgroundTheme';
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -26,25 +27,29 @@ export default function App() {
   }, [darkMode]);
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-[#0a0f1d] text-slate-900 dark:text-slate-100 transition-colors duration-300 relative font-sans">
-      <Navbar
-        darkMode={darkMode}
-        setDarkMode={setDarkMode}
-        openResumeModal={() => setResumeModalOpen(true)}
-      />
+    <div className="min-h-screen bg-slate-50 dark:bg-[#060913] text-slate-900 dark:text-slate-100 transition-colors duration-500 relative font-sans">
+      <BackgroundTheme />
 
-      <main>
-        <Hero openResumeModal={() => setResumeModalOpen(true)} />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Education />
-        <CertificationsAchievements />
-        <Contact />
-      </main>
+      <div className="relative z-10">
+        <Navbar
+          darkMode={darkMode}
+          setDarkMode={setDarkMode}
+          openResumeModal={() => setResumeModalOpen(true)}
+        />
 
-      <Footer openResumeModal={() => setResumeModalOpen(true)} />
+        <main>
+          <Hero openResumeModal={() => setResumeModalOpen(true)} />
+          <About />
+          <Skills />
+          <Projects />
+          <Experience />
+          <Education />
+          <CertificationsAchievements />
+          <Contact />
+        </main>
+
+        <Footer openResumeModal={() => setResumeModalOpen(true)} />
+      </div>
 
       {resumeModalOpen && (
         <ResumeModal onClose={() => setResumeModalOpen(false)} />
