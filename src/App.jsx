@@ -26,7 +26,7 @@ export default function App() {
   }, [darkMode]);
 
   return (
-    <div className="min-h-screen engineering-grid-light dark:engineering-grid-dark text-slate-900 dark:text-slate-100 transition-colors duration-300 relative font-sans">
+    <div className="min-h-screen bg-slate-50 dark:bg-[#0a0f1d] text-slate-900 dark:text-slate-100 transition-colors duration-300 relative font-sans">
       <Navbar
         darkMode={darkMode}
         setDarkMode={setDarkMode}
