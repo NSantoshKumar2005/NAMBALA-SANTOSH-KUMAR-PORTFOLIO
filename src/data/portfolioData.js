@@ -90,7 +90,7 @@ export const portfolioData = {
       id: "ecommerce-flask",
       title: "E-Commerce Web Application",
       subtitle: "Full-Stack Flask App with Razorpay Payment Integration",
-      bgImage: "https://images.unsplash.com/photo-1556742031-c6961e8560b0?auto=format&fit=crop&w=1000&q=80",
+      bgImage: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80",
       techStack: ["Python", "Flask", "MySQL", "HTML", "CSS", "JavaScript", "Jinja2", "Razorpay API"],
       category: "Full Stack",
       featured: true,
