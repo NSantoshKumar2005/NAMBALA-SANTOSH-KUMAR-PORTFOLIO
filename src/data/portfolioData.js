@@ -74,6 +74,7 @@ export const portfolioData = {
       period: "March 2025 – May 2025",
       type: "Internship",
       location: "Remote / On-site",
+      bgImage: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
       highlights: [
         "Engineered responsive web pages using HTML, CSS, and JavaScript, translating project requirements into functional, user-ready interfaces.",
         "Built and customized website layouts to align with project specifications, ensuring consistent design and functionality across pages.",
@@ -89,6 +90,7 @@ export const portfolioData = {
       id: "ecommerce-flask",
       title: "E-Commerce Web Application",
       subtitle: "Full-Stack Flask App with Razorpay Payment Integration",
+      bgImage: "https://images.unsplash.com/photo-1556742049-0a67daf4002a?auto=format&fit=crop&w=1000&q=80",
       techStack: ["Python", "Flask", "MySQL", "HTML", "CSS", "JavaScript", "Jinja2", "Razorpay API"],
       category: "Full Stack",
       featured: true,
@@ -111,6 +113,7 @@ export const portfolioData = {
       id: "recruitment-react",
       title: "Recruitment Management System",
       subtitle: "React.js Dynamic Dashboard with CRUD Operations & Protected Routes",
+      bgImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80",
       techStack: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "React Router", "Axios", "JSON Server"],
       category: "Frontend & API",
       featured: true,
@@ -137,6 +140,7 @@ export const portfolioData = {
       institution: "Raghu Institute of Technology",
       period: "2022 – 2026",
       score: "CGPA: 8.28",
+      bgImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
       details: "Specializing in Computer Science with Data Science. Core coursework in Data Structures, Algorithms, Database Systems, Web Development, and Object-Oriented Programming."
     },
     {
@@ -144,6 +148,7 @@ export const portfolioData = {
       institution: "Sri Chaitanya Junior College",
       period: "2020 – 2022",
       score: "Percentage: 89.4%",
+      bgImage: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=800&q=80",
       details: "Completed Higher Secondary Education focusing on Mathematics, Physics, and Chemistry."
     },
     {
@@ -151,6 +156,7 @@ export const portfolioData = {
       institution: "Srujana High School",
       period: "2019 – 2020",
       score: "GPA: 8.0",
+      bgImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
       details: "Secondary School Certificate with strong academic performance in science and mathematics."
     }
   ],
@@ -160,24 +166,28 @@ export const portfolioData = {
       title: "Programming in Python",
       issuer: "NPTEL",
       type: "Certification",
+      bgImage: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
       description: "Comprehensive certification covering core Python syntax, algorithms, data structures, and computational thinking."
     },
     {
       title: "Programming in C",
       issuer: "NPTEL",
       type: "Certification",
+      bgImage: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80",
       description: "Rigorous fundamentals of programming, memory management, pointers, and algorithm design in C."
     },
     {
       title: "Python Certification",
       issuer: "HackerRank",
       type: "Certification",
+      bgImage: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=600&q=80",
       description: "Verified assessment demonstrating problem-solving, string manipulation, data structures, and object-oriented Python skills."
     },
     {
       title: "MySQL Certification",
       issuer: "Codegnan",
       type: "Certification",
+      bgImage: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=600&q=80",
       description: "Hands-on training in relational database design, complex queries, joins, indexes, and performance tuning in MySQL."
     }
   ],

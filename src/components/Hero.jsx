@@ -7,12 +7,6 @@ export default function Hero({ openResumeModal }) {
 
   return (
     <section id="home" className="relative min-h-screen pt-28 pb-16 flex items-center justify-center overflow-hidden">
-      {/* Software Engineering Background Image Layer */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-15 dark:opacity-30 pointer-events-none transition-opacity duration-500 [mask-image:radial-gradient(ellipse_80%_80%_at_50%_50%,#000_60%,transparent_100%)]"
-        style={{ backgroundImage: "url('/bg-tech.jpg')" }}
-      ></div>
-
       {/* Glow background decorative elements */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/10 dark:bg-cyan-500/15 rounded-full blur-[120px] pointer-events-none"></div>
       <div className="absolute bottom-10 right-10 w-[350px] h-[350px] bg-blue-600/10 dark:bg-blue-600/15 rounded-full blur-[100px] pointer-events-none"></div>
